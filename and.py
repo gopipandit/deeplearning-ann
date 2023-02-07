@@ -14,7 +14,7 @@ def main(data, modelName, plotName, eta, epochs):
     save_model(model, filename=modelName)
     save_plot(df, plotName, model)
 
-if __name__ == '__main__':
+if __name__ == '__main__':  #Entry point
     AND = {
         "x1": [0,0,1,1],
         "x2": [0,1,0,1],
